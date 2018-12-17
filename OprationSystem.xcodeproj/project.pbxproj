@@ -10,10 +10,24 @@
 		A96A10AE21C6F5F1000D64C4 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A96A10AD21C6F5F1000D64C4 /* main.c */; };
 		A96A10B521C7BF67000D64C4 /* client3.c in Sources */ = {isa = PBXBuildFile; fileRef = A96A10B421C7BF67000D64C4 /* client3.c */; };
 		A96A10B821C7C0E9000D64C4 /* Complex.c in Sources */ = {isa = PBXBuildFile; fileRef = A96A10B721C7C0E9000D64C4 /* Complex.c */; };
+		A96A10C121C7C35F000D64C4 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A96A10C021C7C35F000D64C4 /* main.c */; };
+		A96A10CA21C7C365000D64C4 /* serveur.c in Sources */ = {isa = PBXBuildFile; fileRef = A96A10C521C7C365000D64C4 /* serveur.c */; };
+		A96A10CB21C7C365000D64C4 /* test.c in Sources */ = {isa = PBXBuildFile; fileRef = A96A10C621C7C365000D64C4 /* test.c */; };
+		A96A10CC21C7C365000D64C4 /* client.c in Sources */ = {isa = PBXBuildFile; fileRef = A96A10C721C7C365000D64C4 /* client.c */; };
+		A96A10CD21C7C365000D64C4 /* chaine.c in Sources */ = {isa = PBXBuildFile; fileRef = A96A10C821C7C365000D64C4 /* chaine.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		A96A10A821C6F5F1000D64C4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		A96A10BC21C7C35F000D64C4 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -30,10 +44,24 @@
 		A96A10B421C7BF67000D64C4 /* client3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = client3.c; sourceTree = "<group>"; };
 		A96A10B621C7C0E9000D64C4 /* Complex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Complex.h; sourceTree = "<group>"; };
 		A96A10B721C7C0E9000D64C4 /* Complex.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Complex.c; sourceTree = "<group>"; };
+		A96A10BE21C7C35F000D64C4 /* ConcatenString */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ConcatenString; sourceTree = BUILT_PRODUCTS_DIR; };
+		A96A10C021C7C35F000D64C4 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		A96A10C521C7C365000D64C4 /* serveur.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = serveur.c; sourceTree = "<group>"; };
+		A96A10C621C7C365000D64C4 /* test.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = test.c; sourceTree = "<group>"; };
+		A96A10C721C7C365000D64C4 /* client.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = client.c; sourceTree = "<group>"; };
+		A96A10C821C7C365000D64C4 /* chaine.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = chaine.c; sourceTree = "<group>"; };
+		A96A10C921C7C365000D64C4 /* chaine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = chaine.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A96A10A721C6F5F1000D64C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A96A10BB21C7C35F000D64C4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -47,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				A96A10AC21C6F5F1000D64C4 /* OprationSystem */,
+				A96A10BF21C7C35F000D64C4 /* ConcatenString */,
 				A96A10AB21C6F5F1000D64C4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				A96A10AA21C6F5F1000D64C4 /* OprationSystem */,
+				A96A10BE21C7C35F000D64C4 /* ConcatenString */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -68,6 +98,19 @@
 				A96A10B721C7C0E9000D64C4 /* Complex.c */,
 			);
 			path = OprationSystem;
+			sourceTree = "<group>";
+		};
+		A96A10BF21C7C35F000D64C4 /* ConcatenString */ = {
+			isa = PBXGroup;
+			children = (
+				A96A10C821C7C365000D64C4 /* chaine.c */,
+				A96A10C921C7C365000D64C4 /* chaine.h */,
+				A96A10C721C7C365000D64C4 /* client.c */,
+				A96A10C521C7C365000D64C4 /* serveur.c */,
+				A96A10C621C7C365000D64C4 /* test.c */,
+				A96A10C021C7C35F000D64C4 /* main.c */,
+			);
+			path = ConcatenString;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,6 +133,23 @@
 			productReference = A96A10AA21C6F5F1000D64C4 /* OprationSystem */;
 			productType = "com.apple.product-type.tool";
 		};
+		A96A10BD21C7C35F000D64C4 /* ConcatenString */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A96A10C221C7C35F000D64C4 /* Build configuration list for PBXNativeTarget "ConcatenString" */;
+			buildPhases = (
+				A96A10BA21C7C35F000D64C4 /* Sources */,
+				A96A10BB21C7C35F000D64C4 /* Frameworks */,
+				A96A10BC21C7C35F000D64C4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConcatenString;
+			productName = ConcatenString;
+			productReference = A96A10BE21C7C35F000D64C4 /* ConcatenString */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -100,6 +160,9 @@
 				ORGANIZATIONNAME = xxx;
 				TargetAttributes = {
 					A96A10A921C6F5F1000D64C4 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					A96A10BD21C7C35F000D64C4 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -117,6 +180,7 @@
 			projectRoot = "";
 			targets = (
 				A96A10A921C6F5F1000D64C4 /* OprationSystem */,
+				A96A10BD21C7C35F000D64C4 /* ConcatenString */,
 			);
 		};
 /* End PBXProject section */
@@ -129,6 +193,18 @@
 				A96A10B521C7BF67000D64C4 /* client3.c in Sources */,
 				A96A10B821C7C0E9000D64C4 /* Complex.c in Sources */,
 				A96A10AE21C6F5F1000D64C4 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A96A10BA21C7C35F000D64C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A96A10CC21C7C365000D64C4 /* client.c in Sources */,
+				A96A10CB21C7C365000D64C4 /* test.c in Sources */,
+				A96A10CA21C7C365000D64C4 /* serveur.c in Sources */,
+				A96A10CD21C7C365000D64C4 /* chaine.c in Sources */,
+				A96A10C121C7C35F000D64C4 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +338,22 @@
 			};
 			name = Release;
 		};
+		A96A10C321C7C35F000D64C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A96A10C421C7C35F000D64C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -279,6 +371,15 @@
 			buildConfigurations = (
 				A96A10B221C6F5F1000D64C4 /* Debug */,
 				A96A10B321C6F5F1000D64C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A96A10C221C7C35F000D64C4 /* Build configuration list for PBXNativeTarget "ConcatenString" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A96A10C321C7C35F000D64C4 /* Debug */,
+				A96A10C421C7C35F000D64C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
