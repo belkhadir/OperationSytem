@@ -6,30 +6,10 @@
 //  Copyright © 2018 xxx. All rights reserved.
 //
 
-#include <stdio.h>
-#include <rpc/types.h>
-#include <rpc/xdr.h>
-#include <rpc/rpc.h>
-
-
-typedef struct complexe {
-    int img;
-    int reel ;
-} complexe;
-
-typedef struct argument {
-    int img1;int img2;
-    int reel1,reel2 ;
-} argument;
+#include "Complex.h"
 
 // Le filtre xdr
-bool_t xdr_complexe(XDR *p,complexe *x){ return  (xdr_int(p, &x->img) && xdr_int(p, &x->reel) );
-}
 
-bool_t xdr_argument(XDR *p,argument *x){ return  (xdr_int(p, &x->img1) && xdr_int(p, &x->reel1) &&
-                                                  xdr_int(p, &x->img2) && xdr_int(p, &x->reel2)
-                                                  );
-}
 
 // La procedure RPC
 static complexe i;
@@ -50,11 +30,6 @@ complexe* mul (argument* x){
     
 }
 
-
-/* Les numeros */
-#define NUM_PROG 0x22222222 /*  numero de programme */
-#define  NUM_VERSION_1 1 /* le numero de version ici 1 */
-#define NUM_SOMME 1 /* numero de la procedure somme */
 int registerrpc(unsigned long prognum, unsigned long versnum,
                 unsigned long procnum, char *(*procname)(char *),
                 xdrproc_t inproc, xdrproc_t outproc);

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A96A10AE21C6F5F1000D64C4 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A96A10AD21C6F5F1000D64C4 /* main.c */; };
 		A96A10B521C7BF67000D64C4 /* client3.c in Sources */ = {isa = PBXBuildFile; fileRef = A96A10B421C7BF67000D64C4 /* client3.c */; };
+		A96A10B821C7C0E9000D64C4 /* Complex.c in Sources */ = {isa = PBXBuildFile; fileRef = A96A10B721C7C0E9000D64C4 /* Complex.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,8 @@
 		A96A10AA21C6F5F1000D64C4 /* OprationSystem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OprationSystem; sourceTree = BUILT_PRODUCTS_DIR; };
 		A96A10AD21C6F5F1000D64C4 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		A96A10B421C7BF67000D64C4 /* client3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = client3.c; sourceTree = "<group>"; };
+		A96A10B621C7C0E9000D64C4 /* Complex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Complex.h; sourceTree = "<group>"; };
+		A96A10B721C7C0E9000D64C4 /* Complex.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Complex.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 			children = (
 				A96A10B421C7BF67000D64C4 /* client3.c */,
 				A96A10AD21C6F5F1000D64C4 /* main.c */,
+				A96A10B621C7C0E9000D64C4 /* Complex.h */,
+				A96A10B721C7C0E9000D64C4 /* Complex.c */,
 			);
 			path = OprationSystem;
 			sourceTree = "<group>";
@@ -122,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A96A10B521C7BF67000D64C4 /* client3.c in Sources */,
+				A96A10B821C7C0E9000D64C4 /* Complex.c in Sources */,
 				A96A10AE21C6F5F1000D64C4 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
