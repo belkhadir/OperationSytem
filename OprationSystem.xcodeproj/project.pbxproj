@@ -51,6 +51,7 @@
 		A96A10C721C7C365000D64C4 /* client.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = client.c; sourceTree = "<group>"; };
 		A96A10C821C7C365000D64C4 /* chaine.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = chaine.c; sourceTree = "<group>"; };
 		A96A10C921C7C365000D64C4 /* chaine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = chaine.h; sourceTree = "<group>"; };
+		A96A10CE21C7E9F9000D64C4 /* specif.x */ = {isa = PBXFileReference; lastKnownFileType = text; path = specif.x; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +75,7 @@
 		A96A10A121C6F5F1000D64C4 = {
 			isa = PBXGroup;
 			children = (
+				A96A10CE21C7E9F9000D64C4 /* specif.x */,
 				A96A10AC21C6F5F1000D64C4 /* OprationSystem */,
 				A96A10BF21C7C35F000D64C4 /* ConcatenString */,
 				A96A10AB21C6F5F1000D64C4 /* Products */,
